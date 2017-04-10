@@ -1,0 +1,201 @@
+<resources>
+    <string name="app_name">Maqiti</string>
+    <string name="crash_toast_text">Crash App</string>
+    <string name="drawer_open">Ouvrir</string>
+    <string name="drawer_close">Fermer</string>
+    <string name="facebook_id">698439797030693</string>
+    <string name="google_app_id">698439797030693</string>
+
+
+
+
+    <string name="splash_allrights">Tous droits r&#233;serv&#233;s 2017</string>
+
+
+    <!--Login Screen -->
+    <string name="login_username">Nom Dutilisateur:</string>
+    <string name="login_password">Mot de Passe:</string>
+    <string name="login_signin">Se Connecter</string>
+    <string name="login_signup">SInscrire</string>
+    <string name="login_forget">Mot de passe oubli&#233;?</string>
+    <string name="login_skip">Passer en tant quinvit</string>
+
+    <!-- Register Screen -->
+    <string name="register_email">Email:</string>
+    <string name="register_address">Adresse:</string>
+    <string name="register_confirm">Confirmer:</string>
+    <string name="register_signup">Sinscrire</string>
+
+    <!-- Forget Screen -->
+    <string name="forget_sendcode">Envoyer le code</string>
+    <string name="forget_checkcode">V&#233;rifier</string>
+    <string name="forget_verification">V&#233;rifier le code:</string>
+    <string name="forget_newpassword">Nouveau mot de passe:</string>
+    <string name="forget_reset">R&#233;initialiser</string>
+
+
+
+    <!-- Profile Screen -->
+    <string name="profile_phone">T&#233;l&#233;phone:</string>
+    <string name="profile_address">Adresse:</string>
+    <string name="profile_update">Mettre &#224; jour</string>
+    <string name="profile_cancel">Annuler</string>
+    <string name="profile_take_photo">Prendre des photos do;?</string>
+    <string name="profile_take_photo_camera">Camera</string>
+    <string name="profile_take_photo_library">emplacement</string>
+
+    <string name="profile_addresscomment">Cette adresse sera ladresse de livraison lors de la livraison des articles.</string>
+
+    <!-- Home Screen -->
+    <string name="home_new">Nouveau</string>
+    <string name="home_hot">Populaire</string>
+    <string name="home_featureproduct">Articles pr&#233;sent&#233;s</string>
+    <string name="home_recommend">Recommander</string>
+    <string name="home_related">Articles associ&#233;s</string>
+    <string name="home_category">Rubriques</string>
+    <string name="home_shopdepart">Rubriquesles plus populaires</string>
+
+
+    <!-- Browse Screen -->
+    <string name="browse_search">Chercher</string>
+    <string name="browse_filter">Filtre</string>
+    <string name="browse_keyword">Mot-cl&#233;:</string>
+    <string name="browse_price">Prix:</string>
+    <string name="detail_description">La description</string>
+    <string name="detail_size">Taille</string>
+
+
+    <!--Detail Screen -->
+    <string name="detail_addcart">Ajouter aux Favoris</string>
+    <string name="detail_addcart_done">Supprimer de Favoris</string>
+    <string name="detail_buynow">Ajouter au panier</string>
+
+    <!-- Checkout Screen -->
+
+    <string name="checkout_checkout">Paiement</string>
+    <string name="checkout_proceed">Proceed Check</string>
+    <string name="checkout_shipaddress">Adresse de livraison</string>
+    <string name="checkout_payment">Paiement</string>
+    <string name="checkout_hintshipaddress">Tapez Adresse ici ...</string>
+    <string name="checkout_total">Total:</string>
+
+    <!-- Filter Screen -->
+
+    <string name="filter_category">Rubriques</string>
+    <string name="filter_brand">Marque</string>
+    <string name="filter_keyword">Mot-cl&#233; pour la marque...</string>
+    <string name="filter_color">Couleur</string>
+    <string name="filter_price">Prix</string>
+
+    <!-- Menu -->
+    <string name="menu_home">Accueil</string>
+    <string name="menu_countryselect">Pays</string>
+    <string name="menu_favourite">Favoris</string>
+    <string name="menu_order">My Commandes</string>
+    <string name="menu_logout">Se Deconnecter</string>
+    <string name="menu_login">Login/SInscrire</string>
+    <string name="menu_shopcategory">
+ACHETER PAR CAT&#201;GORIE</string>
+
+
+
+    <!-- Order -->
+    <string name="order_status1">Demand&#233; Envoy&#233;e</string>
+    <string name="order_status2">Sur le transport</string>
+    <string name="order_status3">Livr&#233;</string>
+    <string name="order_status4">R&#233;vis&#233;</string>
+    <string name="order_status5">Annul&#233;</string>
+    <string name="review_hint">Laissez un commentaire</string>
+    <string name="order_review_button">Commentaire</string>
+    <string name="detail_reviews">Avis</string>
+
+    <string name="loginFacebook">Se connecter a Facebook</string>
+    <string name="searchBrand">Rechercher par nom ou par marque</string>
+    <string name="order_choosepayment">Choisissez le mode de paiement</string>
+    <string name="order_payment1">Paiement &#224; la livraison</string>
+    <string name="order_payment3">Carte bancaire</string>
+    <string name="order_payment2">Pay&#233;</string>
+
+    <string name="order_history">Histoire</string>
+    <string name="order_active">actif</string>
+
+    <!-- Order Detail-->
+    <string name="order_cancel">Annuler la Commande</string>
+    <string name="order_complete">Livré</string>
+    <string name="order_review">Laissez un commentaire</string>
+    <string name="detail_toast">Vous devez sélectionner une taille.</string>
+
+    <string name="currency">GNF</string>
+
+    <string name="sharelocation">Partag&#233; votre Emplacement</string>
+    <string name="differentaddress">Envoyez-le &#224; une adresse diff&#233;rente</string>
+
+
+
+
+    <!-- Check Out -->
+    <string name="checkout_payment_methods">M&#233;thodes de Payement</string>
+
+
+
+    <string-array name="profile_photodialog">
+        <item>Camera</item>
+        <item>Emplacement</item>
+        <item>Annuler</item>
+    </string-array>
+
+    <string-array name="payment_methods">
+        <item>Paiement &#224; la livraison</item>
+        <item>Carte bancaire</item>
+    </string-array>
+
+
+    <!-- Messages -->
+    <string name="message_empty_user">Nom dutilisateur vide</string>
+    <string name="message_empty_password">Mot de passe vide</string>
+    <string name="message_empty_email">Adresse e-mail vide</string>
+    <string name="message_email_validate">Ladresse e-mail nest pas correcte.</string>
+    <string name="message_password_match">les deux mots de passe ne correspondent pas. Vrifiez sil vous plat</string>
+    <string name="message_empty_phone">T&#233;l&#233;phone vide.</string>
+    <string name="message_empty_address_register">Address is empty.</string>
+    <string name="message_error">Erreur</string>
+    <string name="message_success">Succès</string>
+    <string name="message_signupfail">Votre email d&#233;j&#224; enregistr&#233;. Essayez avec les infos correctes.</string>
+    <string name="message_signinfail">E-mail ou mot de passe incorrect...</string>
+    <string name="message_addedcart">Produit ajout&#233; &#224; votre panier.</string>
+    <string name="message_updatefail">&#201;chec de la mise &#224; jour du profil. Veuillez r&#233;essayer...</string>
+    <string name="message_updatesuccess">Profile Updated</string>
+    <string name="message_process">En traitement</string>
+    <string name="message_update_profile">Mise &#224; jour du profil ...</string>
+    <string name="message_loading">Chargement des informations ...</string>
+    <string name="message_wait">Sil vous plat, attendez</string>
+    <string name="message_generate_order">G&#233;n&#233;rer la commende ...</string>
+    <string name="message_empty_address">Vous devez remplir Adresse de livraison ...</string>
+    <string name="message_success_order">Succesfully Order Item.</string>
+    <string name="message_nocart">Aucun produit sur le panier.</string>
+    <string name="message_nofavourite">Aucun produit sur la liste des favoris maintenant.</string>
+    <string name="message_notice">Notice</string>
+    <string name="message_loginoffer">Pour effectuer le paiement, vous devez vous connecter.</string>
+    <string name="message_login">Se Connecter</string>
+    <string name="message_forget_empty_email">Adresse e-mail vide.</string>
+    <string name="message_forget_wrong_email">Votre e-mail na pas &#233;t&#233; enregistr&#233;e.</string>
+    <string name="message_forget_sent_code"> Le Code de v&#233;rification envoy&#233; &#224; votre email. Merci de consulter vos emails.</string>
+    <string name="message_forget_reset">La R&#233;initialisation du mot de passe avec succ&#232;s</string>
+    <string name="message_forget_reset_fail">Impossible de r&#233;initialiser</string>
+    <string name="message_resetting_password">Mise &#224; jour du mot de passe ..</string>
+
+
+
+
+    <string name="xlistview_header_hint_normal">Tirez vers le bas pour actualiser</string>
+    <string name="xlistview_header_hint_ready"></string>
+    <string name="xlistview_header_hint_loading">Chargement...</string>
+    <string name="xlistview_header_last_time"></string>
+    <string name="xlistview_footer_hint_normal">Charger plus</string>
+    <string name="xlistview_footer_hint_ready"></string>
+
+
+
+
+
+</resources>

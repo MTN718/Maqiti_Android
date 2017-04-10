@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#fff">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imgOrderItem"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_track" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="New Text"
+                android:id="@+id/txtOrderItemName"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:textStyle="normal"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="New Text"
+                android:id="@+id/txtOrderItemProgress"
+                android:gravity="center_vertical|right"
+                android:layout_marginLeft="5dp"
+                android:textSize="16dp"
+                android:singleLine="true"
+                android:textColor="#990000" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

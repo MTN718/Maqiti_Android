@@ -1,0 +1,201 @@
+<resources>
+    <string name="app_name">Maqiti</string>
+    <string name="crash_toast_text">Crash App</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="facebook_id">698439797030693</string>
+    <string name="google_app_id">698439797030693</string>
+
+
+
+
+    <string name="splash_allrights">All Rights Reserved 2017</string>
+
+
+    <!--Login Screen -->
+    <string name="login_username">Username:</string>
+    <string name="login_password">Password:</string>
+    <string name="login_signin">Sign In</string>
+    <string name="login_signup">Sign Up</string>
+    <string name="login_forget">Forget Password?</string>
+    <string name="login_skip">Skip As Guest</string>
+
+    <!-- Register Screen -->
+    <string name="register_email">Email:</string>
+    <string name="register_address">Address:</string>
+    <string name="register_confirm">Confirm:</string>
+    <string name="register_signup">Sign Up</string>
+
+    <!-- Forget Screen -->
+    <string name="forget_sendcode">Send Code</string>
+    <string name="forget_checkcode">Check</string>
+    <string name="forget_verification">Verify Code:</string>
+    <string name="forget_newpassword">New Password:</string>
+    <string name="forget_reset">Reset</string>
+
+
+
+    <!-- Profile Screen -->
+    <string name="profile_phone">Phone:</string>
+    <string name="profile_address">Address:</string>
+    <string name="profile_update">Update</string>
+    <string name="profile_cancel">Cancel</string>
+    <string name="profile_take_photo">Take Photo from Where?</string>
+    <string name="profile_take_photo_camera">Camera</string>
+    <string name="profile_take_photo_library">Library</string>
+
+    <string name="profile_addresscomment">This Address will be shipping address when deliver items.</string>
+
+    <!-- Home Screen -->
+    <string name="home_new">New</string>
+    <string name="home_hot">Popular</string>
+    <string name="home_featureproduct">Featured Products</string>
+    <string name="home_recommend">Recommend</string>
+    <string name="home_related">Related Product</string>
+    <string name="home_category">Category</string>
+    <string name="home_shopdepart">Most popular categories</string>
+
+
+    <!-- Browse Screen -->
+    <string name="browse_search">Search</string>
+    <string name="browse_filter">Filter</string>
+    <string name="browse_keyword">Keyword:</string>
+    <string name="browse_price">Price:</string>
+    <string name="detail_description">Description</string>
+    <string name="detail_size">Size</string>
+
+
+    <!--Detail Screen -->
+    <string name="detail_addcart">Add to Favourite</string>
+    <string name="detail_addcart_done">Remove from Favourite</string>
+    <string name="detail_buynow">Add to Cart</string>
+
+    <!-- Checkout Screen -->
+
+    <string name="checkout_checkout">Proceed Checkout</string>
+    <string name="checkout_proceed">Proceed Check</string>
+    <string name="checkout_shipaddress">Shipping Address</string>
+    <string name="checkout_payment">Payment</string>
+    <string name="checkout_hintshipaddress">Type Address here...</string>
+    <string name="checkout_total">Total:</string>
+
+    <!-- Filter Screen -->
+
+    <string name="filter_category">Category</string>
+    <string name="filter_brand">Brand</string>
+    <string name="filter_keyword">Keyword for Brand...</string>
+    <string name="filter_color">Color</string>
+    <string name="filter_price">Price</string>
+
+    <!-- Menu -->
+    <string name="menu_home">Home</string>
+    <string name="menu_countryselect">Switch Country</string>
+    <string name="menu_favourite">Favourites</string>
+    <string name="menu_order">My Orders</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_login">Login/Register</string>
+    <string name="menu_shopcategory">SHOP BY CATEGORY</string>
+
+
+
+    <!-- Order -->
+    <string name="order_status1">Requested</string>
+    <string name="order_status2">OnTransport</string>
+    <string name="order_status3">Delivered</string>
+    <string name="order_status4">Reviewed</string>
+    <string name="order_status5">Cancelled</string>
+    <string name="review_hint">Write a Review</string>
+    <string name="order_review_button">Review</string>
+    <string name="detail_reviews">Reviews</string>
+
+
+    <string name="order_choosepayment">Choose Payment Method</string>
+    <string name="order_payment1">Cash on Delivery</string>
+    <string name="order_payment3">Bank Card</string>
+    <string name="order_payment2">Paid</string>
+
+    <string name="order_history">History</string>
+    <string name="order_active">Active</string>
+
+    <!-- Order Detail-->
+    <string name="order_cancel">Cancel Order</string>
+    <string name="order_complete">Delivered</string>
+    <string name="order_review">Write a Review</string>
+    <string name="detail_toast">You must select one size.</string>
+
+    <string name="currency">GNF</string>
+
+    <string name="sharelocation">Share Location</string>
+    <string name="differentaddress">Ship it to different address</string>
+
+
+
+
+    <!-- Check Out -->
+    <string name="checkout_payment_methods">Payment Methods</string>
+
+
+
+    <string-array name="profile_photodialog">
+        <item>Camera</item>
+        <item>Library</item>
+        <item>Cancel</item>
+    </string-array>
+
+    <string-array name="payment_methods">
+        <item>Cash on Delivery</item>
+        <item>Bank Card</item>
+    </string-array>
+
+
+    <!-- Messages -->
+    <string name="message_empty_user">Empty Username</string>
+    <string name="message_empty_password">Empty Password</string>
+    <string name="message_empty_email">Empty Email Address</string>
+    <string name="message_email_validate">Email Address is not correct.</string>
+    <string name="message_password_match">Two Passwords does not macth. Please check</string>
+    <string name="message_empty_phone">Phone number empty.</string>
+    <string name="message_empty_address_register">Address is empty.</string>
+    <string name="message_error">Error</string>
+    <string name="message_success">Success</string>
+    <string name="message_signupfail">Your email already registered. Please try with correct infos.</string>
+    <string name="message_signinfail">Email or Password is incorrect...</string>
+    <string name="message_addedcart">Added Product to your Carts.</string>
+    <string name="message_updatefail">Fail to update Profile. Please try again...</string>
+    <string name="message_updatesuccess">Profile Updated</string>
+    <string name="message_process">Processing</string>
+    <string name="message_update_profile">Updating Profile...</string>
+    <string name="message_loading">Loading Infos...</string>
+    <string name="message_wait">Please wait</string>
+    <string name="message_generate_order">Generate Order...</string>
+    <string name="message_empty_address">You must fill Shipping Address..</string>
+    <string name="message_success_order">Succesfully Order Item.</string>
+    <string name="message_nocart">No Products on Cart Now.</string>
+    <string name="message_nofavourite">No Products on Favourite List Now.</string>
+    <string name="message_notice">Notice</string>
+    <string name="message_loginoffer">To Checkout, You must login first.</string>
+    <string name="message_login">Login</string>
+    <string name="message_forget_empty_email">Empty Email Address.</string>
+    <string name="message_forget_wrong_email">Your email address did not registered.</string>
+    <string name="message_forget_sent_code">Verification Code sent to your email. Please check your email.</string>
+    <string name="message_forget_reset">Password Reset Successfully</string>
+    <string name="message_forget_reset_fail">Fail to Reset</string>
+    <string name="message_resetting_password">Updating Password..</string>
+
+    <string name="loginFacebook">Login with Facebook</string>
+    <string name="searchBrand">Search by name or brand</string>
+
+
+
+    <string name="xlistview_header_hint_normal">Pull down to refresh</string>
+    <string name="xlistview_header_hint_ready"></string>
+    <string name="xlistview_header_hint_loading">Loading...</string>
+    <string name="xlistview_header_last_time"></string>
+    <string name="xlistview_footer_hint_normal">Load More</string>
+    <string name="xlistview_footer_hint_ready"></string>
+
+
+
+
+
+</resources>

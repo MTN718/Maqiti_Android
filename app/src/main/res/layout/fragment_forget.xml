@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView4"
+            android:scaleType="fitXY"
+            android:background="#fff" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_alignBottom="@+id/linearLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/register_email"
+                    android:id="@+id/textView2"
+                    android:textColor="#000"
+                    android:textSize="18dp"
+                    android:gravity="center" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/editForgetEmail"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000"
+                    android:singleLine="true"
+                    android:layout_weight="1" />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:text="@string/forget_sendcode"
+                    android:id="@+id/btnForgetSendCode"
+                    android:background="@drawable/drawable_green_button"
+                    android:textColor="#E5E5E5"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/layoutForgetCode"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/forget_verification"
+                    android:id="@+id/textView3"
+                    android:textColor="#000"
+                    android:textSize="18dp"
+                    android:gravity="center" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/editForgetCode"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    android:singleLine="true" />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:text="@string/forget_sendcode"
+                    android:id="@+id/btnForgetCheckCode"
+                    android:background="@drawable/drawable_green_button"
+                    android:textColor="#E5E5E5"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:id="@+id/layoutForgetPassword"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/forget_newpassword"
+                    android:textColor="#000"
+                    android:textSize="18dp"
+                    android:gravity="center" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/editForgetNewPassword"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    android:singleLine="true" />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:text="@string/forget_reset"
+                    android:id="@+id/btnForgetReset"
+                    android:background="@drawable/drawable_green_button"
+                    android:textColor="#E5E5E5"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

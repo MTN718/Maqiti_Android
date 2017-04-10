@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:background="#fff">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical">
+
+            <com.songu.maqiti.view.OvalImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/imgProfilePhoto"
+                android:src="@drawable/accounticon"
+                android:layout_marginLeft="10dp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/editProfileUser"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000"
+                    android:singleLine="true" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/editProfileEmail"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000"
+                    android:singleLine="true"
+                    android:layout_marginTop="10dp"
+                    android:editable="false" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="@string/profile_phone"
+                android:id="@+id/textView2"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:gravity="center" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/editProfilePhone"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000"
+                android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="@string/profile_address"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:gravity="center" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/editProfileAddress"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000"
+                android:singleLine="true" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_addresscomment"
+            android:id="@+id/textView6"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"></LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp" >
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="@string/profile_update"
+                android:id="@+id/btnProfileUpdate"
+                android:background="@drawable/drawable_green_button"
+                android:textColor="#E5E5E5"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="New Text"
+                android:id="@+id/textView5"
+                android:layout_weight="1"
+                android:visibility="invisible" />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="@string/profile_cancel"
+                android:id="@+id/btnProfileCancel"
+                android:background="@drawable/drawable_green_button"
+                android:textColor="#E5E5E5"
+                android:layout_marginRight="10dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

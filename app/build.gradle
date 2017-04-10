@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "25.0.2"
+    signingConfigs {
+        config {
+            keyAlias 'qqqqqq'
+            keyPassword 'qqqqqq'
+            storeFile file('D:/2014-11-08-Beijing/keystore')
+            storePassword 'qqqqqq'
+        }
+    }
+    defaultConfig {
+        applicationId "com.songu.maqiti"
+        minSdkVersion 17
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+    lintOptions{
+        checkReleaseBuilds false
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.config
+        }
+        debug {
+            signingConfig signingConfigs.config
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.afollestad.material-dialogs:core:0.9.1.0'
+    compile 'com.yahoo.mobile.client.android.util.rangeseekbar:rangeseekbar-library:0.1.0'
+    compile 'com.squareup.retrofit:retrofit:1.6.1'
+    compile 'com.google.code.gson:gson:2.3'
+    compile 'org.parceler:parceler:0.2.13'
+    compile project(':facebook')
+}

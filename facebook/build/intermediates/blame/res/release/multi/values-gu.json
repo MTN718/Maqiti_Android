@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "D:\\Tasks\\Android1\\119E-commerce\\Maqiti_Android\\facebook\\build\\intermediates\\res\\merged\\release\\values-gu\\values-gu.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 60,
+                    "endOffset": 111
+                },
+                "from": {
+                    "file": "D:\\Tasks\\Android1\\119E-commerce\\Maqiti_Android\\facebook\\res\\values-gu\\messenger_button_strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 2,
+                        "startOffset": 1164,
+                        "endColumn": 58,
+                        "endOffset": 1220
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="right">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView"
+            android:layout_centerInParent="true"
+            android:paddingRight="40dp"
+            android:src="@drawable/logo"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp" />
+
+        <RelativeLayout
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imgMenuCart"
+                android:src="@drawable/ic_cart"
+                 />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:text="0"
+                android:id="@+id/txtMenuCountCart"
+                android:background="@drawable/drawable_cart_label"
+                android:textColor="#fff"
+                android:textSize="14dp"
+                android:gravity="center"
+                android:textIsSelectable="false"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

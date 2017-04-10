@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "D:\\Tasks\\Android1\\119E-commerce\\Maqiti_Android\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\com_facebook_tooltip_bubble.xml",
+        "source": "D:\\Tasks\\Android1\\119E-commerce\\Maqiti_Android\\facebook\\build\\intermediates\\bundles\\debug\\res\\layout\\com_facebook_tooltip_bubble.xml"
+    },
+    {
+        "merged": "D:\\Tasks\\Android1\\119E-commerce\\Maqiti_Android\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_blue_large.xml",
+        "source": "D:\\Tasks\\Android1\\119E-commerce\\Maqiti_Android\\facebook\\build\\intermediates\\bundles\\debug\\res\\layout\\messenger_button_send_blue_large.xml"
+    },
+    {
+        "merged": "D:\\Tasks\\Android1\\119E-commerce\\Maqiti_Android\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_blue_small.xml",
+        "source": "D:\\Tasks\\Android1\\119E-commerce\\Maqiti_Android\\facebook\\build\\intermediates\\bundles\\debug\\res\\layout\\messenger_button_send_blue_small.xml"
+    },
+    {
+        "merged": "D:\\Tasks\\Android1\\119E-commerce\\Maqiti_Android\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\com_facebook_activity_layout.xml",
+        "source": "D:\\Tasks\\Android1\\119E-commerce\\Maqiti_Android\\facebook\\build\\intermediates\\bundles\\debug\\res\\layout\\com_facebook_activity_layout.xml"
+    },
+    {
+        "merged": "D:\\Tasks\\Android1\\119E-commerce\\Maqiti_Android\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_white_small.xml",
+        "source": "D:\\Tasks\\Android1\\119E-commerce\\Maqiti_Android\\facebook\\build\\intermediates\\bundles\\debug\\res\\layout\\messenger_button_send_white_small.xml"
+    },
+    {
+        "merged": "D:\\Tasks\\Android1\\119E-commerce\\Maqiti_Android\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_white_large.xml",
+        "source": "D:\\Tasks\\Android1\\119E-commerce\\Maqiti_Android\\facebook\\build\\intermediates\\bundles\\debug\\res\\layout\\messenger_button_send_white_large.xml"
+    },
+    {
+        "merged": "D:\\Tasks\\Android1\\119E-commerce\\Maqiti_Android\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_blue_round.xml",
+        "source": "D:\\Tasks\\Android1\\119E-commerce\\Maqiti_Android\\facebook\\build\\intermediates\\bundles\\debug\\res\\layout\\messenger_button_send_blue_round.xml"
+    },
+    {
+        "merged": "D:\\Tasks\\Android1\\119E-commerce\\Maqiti_Android\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_white_round.xml",
+        "source": "D:\\Tasks\\Android1\\119E-commerce\\Maqiti_Android\\facebook\\build\\intermediates\\bundles\\debug\\res\\layout\\messenger_button_send_white_round.xml"
+    },
+    {
+        "merged": "D:\\Tasks\\Android1\\119E-commerce\\Maqiti_Android\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\com_facebook_login_fragment.xml",
+        "source": "D:\\Tasks\\Android1\\119E-commerce\\Maqiti_Android\\facebook\\build\\intermediates\\bundles\\debug\\res\\layout\\com_facebook_login_fragment.xml"
+    }
+]

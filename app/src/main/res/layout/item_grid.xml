@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:id="@+id/imgGridItem"
+            android:src="@drawable/cartplaceholder"
+            android:scaleType="centerInside" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="25dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="New Text"
+                    android:id="@+id/txtGridItemName"
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:ellipsize="marquee"
+                    android:layout_marginTop="5dp"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="New Text"
+                    android:id="@+id/txtGridItemBrand"
+                    android:layout_weight="1"
+                    android:textColor="#555"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:ellipsize="marquee" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="300$"
+            android:id="@+id/txtGridItemPrice"
+            android:textColor="#900"
+            android:gravity="left|center_vertical"
+            android:paddingRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:textSize="13dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp">
+            <RatingBar
+                android:id="@+id/ratingGridItem"
+                style="@style/foodRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:layout_gravity="center_vertical"
+                android:visibility="visible"
+                android:isIndicator="true"
+                android:rating="3.5"
+                android:paddingTop="5dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text=""
+                android:id="@+id/txtRateGridItem"
+                android:textSize="14sp"
+                android:textIsSelectable="false"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

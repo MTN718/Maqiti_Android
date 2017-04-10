@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView4"
+            android:scaleType="fitXY"
+            android:background="#fff" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left|center_horizontal"
+            android:layout_alignBottom="@+id/linearLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/register_email"
+                    android:id="@+id/textView2"
+                    android:textColor="#000"
+                    android:textSize="18dp"
+                    android:gravity="left|center_vertical" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/editLoginUser"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/login_password"
+                    android:id="@+id/textView3"
+                    android:textColor="#000"
+                    android:textSize="18dp"
+                    android:gravity="left|center_vertical" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/editLoginPassword"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000"
+                    android:password="true"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/login_forget"
+                android:id="@+id/txtLoginForget"
+                android:textColor="#05a"
+                android:textSize="16dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_vertical" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/layoutLoginFacebook"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/drawable_button_facebook">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageView6"
+                    android:src="@drawable/ic_facebook"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/loginFacebook"
+                    android:id="@+id/textView11"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/linearLayout">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="@string/login_signup"
+                android:id="@+id/btnLoginSignup"
+                android:background="@drawable/drawable_green_button"
+                android:textColor="#E5E5E5"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="@string/login_signin"
+                android:id="@+id/btnLoginLogin"
+                android:background="@drawable/drawable_green_button"
+                android:textColor="#E5E5E5"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
